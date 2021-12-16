@@ -1,0 +1,47 @@
+
+p {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+.homepage {
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+}
+
+    button {
+        display: inline-block;
+        padding: 1.3rem 2rem;
+        text-decoration: none;
+        background: rgb(23, 124, 255);
+        color: #ffffff;
+        cursor: pointer;
+        height: 30px;
+        font-size: 1em;
+        font-weight: 400;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        transition: all 0.5s ease-in-out;
+
+        &:active, &:focus {
+            outline: none;
+        }
+            
+        &:hover {
+            background-color: rgb(124, 53, 255); 
+        }
+    }
+
+// .empty {
+//     width: 100vw;
+//     height: 100px;
+//     background-color: aqua;
+// }

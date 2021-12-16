@@ -1,0 +1,44 @@
+.login-layout {
+    display: flex;
+    
+    //grid-template-columns: 1fr 2fr 1fr;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+    .right-column {
+        //grid-column: end;
+    }
+
+}
+
+.auth-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    
+    input {
+        font-family: "Montserrat", sans-serif;
+        color: black;
+        padding: 5px 0px;
+        width: 100%;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 2px solid rgb(23, 124, 255);
+        background-color: transparent;
+        transition: 0.5s all ease-in-out;
+        font-size: 1.1em;
+        margin-bottom: 21px;
+
+        &:focus {
+            outline: none;
+            border-bottom: 2px solid rgb(124, 53, 255);
+        }
+        
+           
+    }
+}

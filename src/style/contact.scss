@@ -1,0 +1,44 @@
+.contact-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100vw;
+    //height: 100vh;
+    margin-top: 200px;
+
+    .contact-us {
+        margin-left: 350px;
+        font-size: 20px;
+
+        .map {
+            margin-top: 50px;
+        }
+    }
+
+    .socials {
+        margin-left: 350px;
+        font-size: 20px;
+
+        .social-icons {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            width: 250px;
+
+            a {
+                height: 65px;
+                display: flex;
+                width: 50px;
+            }
+        }
+
+        .picture-contact {
+            display: flex;
+            height: 350px;
+            width: 300px;
+            margin-top: 20px;
+        }
+
+    }
+    
+}
