@@ -88,7 +88,7 @@ class App extends Component {
             <Navigation 
             loggedInStatus={this.state.loggedInStatus}
             handleLogout={this.handleLogout} />
-            <h2>{this.state.loggedInStatus}</h2>
+            {/* <h2>{this.state.loggedInStatus}</h2> */}
 
             <Switch {...this.props}>
               <Route exact path="/" component={Home} />
