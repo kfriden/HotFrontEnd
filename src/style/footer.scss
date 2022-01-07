@@ -1,5 +1,6 @@
 .footer-wrapper {
     display: flex;
+    justify-items: auto;
     justify-content: center;
     height: 126px;
     width: 100vw;
@@ -8,8 +9,8 @@
 }
 
 .title {
-    display: flex;
+    //display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 40px;
 }
